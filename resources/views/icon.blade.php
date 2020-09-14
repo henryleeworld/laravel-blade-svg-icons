@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>{{ config('app.name') }}</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -51,10 +51,11 @@
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="mx-auto" style="width: 100px; height: 100px;">
-                    <x:heroicon-o-annotation/>
-                    <x:heroicon-o-arrow-circle-down/>
-                    <x:zondicon-adjust/>
-                    <x:zondicon-airplane/>
+                    <x-fab-laravel />
+                    <x-fas-comment-dollar />
+                    <x-fas-menorah />
+                    <x-fas-book />
+                    <x-fas-faucet />
                 </div>
             </div>
         </div>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\IconController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/icon', 'IconController@index');
+Route::get('/icon', [IconController::class, 'index']);
