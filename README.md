@@ -1,4 +1,4 @@
-# Laravel 8 Blade 視圖的 SVG（可縮放式向量圖形）圖示顯示
+# Laravel 9 Blade 視圖的 SVG（可縮放式向量圖形）圖示顯示
 
 引入 blade-ui-kit 的 blade-icons 套件來擴增 Blade 視圖的 SVG（可縮放式向量圖形）圖示顯示。SVG 是 W3C 制定的開放性網路標準之一，此圖片格式再網頁中能以向量格式呈現圖片。網頁設計師可先在 Adobe Illusrator 中畫好向量圖形並存成 SVG 檔，在放在網頁中。運用方式其實就跟 .jpg、.png、.gif 等圖片檔一樣，但不同的是 SVG 檔不會因尺寸的改變而失真，日後要修改時也可直接開啟檔案修改，相當方便。
 
