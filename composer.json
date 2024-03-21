@@ -6,21 +6,21 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
-        "blade-ui-kit/blade-icons": "^1.5",
+        "blade-ui-kit/blade-icons": "^1.6",
         "guzzlehttp/guzzle": "^7.8",
-        "laravel/framework": "^10.39",
+        "laravel/framework": "^10.48",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
-        "owenvoke/blade-fontawesome": "^2.5"
+        "owenvoke/blade-fontawesome": "^2.6"
     },
     "require-dev": {
-        "fakerphp/faker": "^1.23.0",
-        "laravel/pint": "^1.13",
-        "laravel/sail": "^1.26",
-        "mockery/mockery": "^1.6.7",
+        "fakerphp/faker": "^1.23.1",
+        "laravel/pint": "^1.14",
+        "laravel/sail": "^1.29",
+        "mockery/mockery": "^1.6.10",
         "nunomaduro/collision": "^7.10",
         "phpunit/phpunit": "^10.5",
-        "spatie/laravel-ignition": "^2.3"
+        "spatie/laravel-ignition": "^2.4"
     },
     "autoload": {
         "psr-4": {
