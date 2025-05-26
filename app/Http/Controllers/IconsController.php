@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 
-class IconController extends Controller
+class IconsController extends Controller
 {
     public function index()
     {
-        return view('icon');
+        return view('icons');
     }
 }
